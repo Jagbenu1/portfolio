@@ -126,6 +126,13 @@
                         </div><!-- card-body -->
                     </div><!-- card -->
 
+                    <div class="card">
+                        <img class="card-img-top" src="/images/sass.png" alt="SASS">
+                        <div class="card-body">
+                            <p class="card-text">SASS/SCSS</p>
+                        </div><!-- card-body -->
+                    </div><!-- card -->
+
                 </div><!-- card-columns -->
             </div><!-- col-sm-6 -->     
         </div><!-- row -->          
