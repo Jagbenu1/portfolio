@@ -1,0 +1,35 @@
+@font-face{
+    font-family: Merriweather;
+    src: url("../Merriweather-regular.ttf");
+ }
+ 
+ @font-face{
+     font-family: Montserrat;
+     src: url("../Montserrat-regular.ttf");
+  }
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.name-bar{
+    font-size: 19px;
+    color: white;
+    font-family:  Merriweather;
+    float: left;
+}
+
+.content{
+    font-size: 19px;
+    padding: 10px 60px;
+    font-family:  Merriweather;
+    text-align: center;
+}
+
+#tag:link, #tag:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family:  Merriweather;
+}
