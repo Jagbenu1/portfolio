@@ -1,35 +1,32 @@
-@font-face{
-    font-family: Merriweather;
-    src: url("../Merriweather-regular.ttf");
- }
- 
- @font-face{
-     font-family: Montserrat;
-     src: url("../Montserrat-regular.ttf");
-  }
-
-html, body{
-    margin: 0;
-    height: 100%;
+@font-face {
+  font-family: Merriweather;
+  src: url("../Merriweather-regular.ttf");
+}
+@font-face {
+  font-family: Monserrat;
+  src: url("../Montserrat-regular.ttf");
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+html body {
+  height: 100%;
+  margin: 0;
 }
 
-.name-bar{
-    font-size: 19px;
-    color: white;
-    font-family:  Merriweather;
-    float: left;
+.content {
+  font-family: Merriweather;
+  font-size: 19px;
+  padding: 10px 60px;
+  text-align: center;
 }
 
-.content{
-    font-size: 19px;
-    padding: 10px 60px;
-    font-family:  Merriweather;
-    text-align: center;
+#tag:link, #tag:visited {
+  font-family: Merriweather;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
 }
 
-#tag:link, #tag:visited{
-    color: white;
-    text-decoration: none;
-    font-size: 19px;
-    font-family:  Merriweather;
-}
+/*# sourceMappingURL=My_site_projects.css.map */

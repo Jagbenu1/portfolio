@@ -1,0 +1,44 @@
+@import "variables";
+
+@include fontFace;
+
+  html{
+      height: 100%;
+      margin: 0;
+    body{
+        height: 100%;
+        margin: 0;
+        background: url("../images/back.jpg") no-repeat center center fixed;
+        background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        font-family: $font2;
+    }
+  }
+
+  .headline{
+      text-align: center;
+      color: $every_color;
+  }
+
+  .name_me{
+    color: #0C7489;
+}
+
+  .content{
+      @include font;
+      padding: 10px 60px;
+      text-align: center;
+  }
+
+  hr{
+      color: $every_color;
+      width: 75%;
+  }
+
+  #tag:link, #tag:visited{
+    @include font;
+    color: $every_color;
+    text-decoration: none;
+  }

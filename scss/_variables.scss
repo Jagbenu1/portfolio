@@ -1,0 +1,20 @@
+$font1: Merriweather;
+$font2: Monserrat;
+$every_color: white;
+
+@mixin font {
+    font-family: $font1;
+    font-size: 19px;
+}
+
+@mixin fontFace {
+    @font-face{
+        font-family: $font1;
+        src: url("../Merriweather-regular.ttf");
+     }
+     
+     @font-face{
+         font-family: $font2;
+         src: url("../Montserrat-regular.ttf");
+      }
+}

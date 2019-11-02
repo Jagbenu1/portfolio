@@ -1,0 +1,46 @@
+@import "variables";
+
+@include fontFace;
+
+html{
+    height: 100%;
+    margin: 0;
+  body{
+      height: 100%;
+      margin: 0;
+  }
+}
+
+hr{
+    color: $every_color;
+    width: 55%;
+}
+
+.content{
+    @include font;
+    padding: 10px 60px;
+    text-align: center;
+}
+
+#tag:link, #tag:visited{
+    @include font;
+    color: $every_color;
+    text-decoration: none;
+  }
+
+img{
+    max-height: 100px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 0 auto;
+    text-align: center;
+    width: 1rem;
+}
+
+h3{
+    text-align: center;
+    padding-top: 40px;
+}

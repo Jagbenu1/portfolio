@@ -1,63 +1,54 @@
-@font-face{
-    font-family: Merriweather;
-    src: url("../Merriweather-regular.ttf");
- }
- 
- @font-face{
-     font-family: Montserrat;
-     src: url("../Montserrat-regular.ttf");
-  }
- 
- html, body{
-     margin: 0;
-     height: 100%;
- }
-
- .name-bar{
-    font-size: 19px;
-    color: white;
-    font-family:  Merriweather;
-    float: left;
+@font-face {
+  font-family: Merriweather;
+  src: url("../Merriweather-regular.ttf");
 }
- 
-.content{
-    font-size: 19px;
-    padding: 10px 60px;
-    font-family:  Merriweather;
-    text-align: center;
+@font-face {
+  font-family: Monserrat;
+  src: url("../Montserrat-regular.ttf");
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+html body {
+  height: 100%;
+  margin: 0;
 }
 
-#tag:link, #tag:visited{
-    color: white;
-    text-decoration: none;
-    font-size: 19px;
-    font-family:  Merriweather;
+hr {
+  color: white;
+  width: 55%;
 }
- 
- hr{
-     width: 55%;
-     background-color: white;
- }
- 
- .box{
-     width: 300px;
-     height: 300px;
- }
 
- img{
-     max-height: 100px;
-     max-width: 100px;
-     margin: 0 auto;
- }
+.content {
+  font-family: Merriweather;
+  font-size: 19px;
+  padding: 10px 60px;
+  text-align: center;
+}
 
- .card{
-     margin: 0 auto;
-     text-align: center;
-     width: 1rem;
- }
+#tag:link, #tag:visited {
+  font-family: Merriweather;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+}
 
- h3{
-     text-align: center;
-     padding-top: 40px;
- }
- 
+img {
+  max-height: 100px;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0 auto;
+  text-align: center;
+  width: 1rem;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/*# sourceMappingURL=My_site_about.css.map */
