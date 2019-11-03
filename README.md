@@ -5,6 +5,6 @@ Tools I used to make this site
 
 - [Godaddy](https://www.godaddy.com/) - hosting is pretty easy with this hosting service(though it isnt free)
 
-- [Bootstrap](https://getbootstrap.com/) - a lot of bootstrap was made to make this appear bette than it owuld have been without it.
+- [Bootstrap](https://getbootstrap.com/) - a lot of Bootstrap was added to make this appear better than it would have been without it.
 
-- [scss](https://sass-lang.com/) - the scss helped keep the stying in perspective and make it simpler to create all of the styling for the pages.
+- [scss](https://sass-lang.com/) - the SCSS helped keep the structure of my stying in perspective and made it simpler to create all of the styling for the pages.
