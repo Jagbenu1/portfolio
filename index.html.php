@@ -12,7 +12,7 @@
 
     <div class="container-fluid">
             <div class="row">
-                <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg  col-12">
                     <div class="d-flex container-fluid">
                     <div>
                         <a href="<?php echo $index; ?>" id="tag"> Jacques Agbenu </a>
@@ -51,7 +51,7 @@
                 <div class="headline">
                       <h1 class="display-4">Hi There, I'm <span class="name_me">Jacques Agbenu</span>.</h1>
                         <hr>
-                      <h4 class="display-5">I'm a junior full-stack web develper.</h3>
+                      <h4 class="display-5">I'm a junior full-stack web developer.</h3>
                 </div><!-- headline_class -->
             </div><!-- col-sm-12 -->
         </div><!-- row -->

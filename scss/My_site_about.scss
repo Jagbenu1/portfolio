@@ -12,7 +12,7 @@ html{
 }
 
 hr{
-    color: $every_color;
+    background-color: black;
     width: 55%;
 }
 
@@ -37,7 +37,11 @@ img{
 .card{
     margin: 0 auto;
     text-align: center;
-    width: 1rem;
+    width: 2rem;
+    
+    @media only screen and (max-width: 350px){
+        width: 4rem;
+    }
 }
 
 h3{

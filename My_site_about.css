@@ -1,10 +1,18 @@
 @font-face {
   font-family: Merriweather;
-  src: url("http://jacquesagbenu.com/font/Merriweather-regular.ttf");
+  -webkit-font-family: Merriweather;
+  -moz-font-family: Merriweather;
+  -ms-font-family: Merriweather;
+  -o-font-family: Merriweather;
+  src: url("../font/Merriweather-regular.ttf");
 }
 @font-face {
   font-family: Monserrat;
-  src: url("http://jacquesagbenu.com/font/Montserrat-regular.ttf");
+  -webkit-font-family: Monserrat;
+  -moz-font-family: Monserrat;
+  -ms-font-family: Monserrat;
+  -o-font-family: Monserrat;
+  src: url("../font/Montserrat-regular.ttf");
 }
 html {
   height: 100%;

@@ -10,11 +10,19 @@ $every_color: white;
 @mixin fontFace {
     @font-face{
         font-family: $font1;
-        src: url("../Merriweather-regular.ttf");
+        -webkit-font-family: $font1;
+        -moz-font-family: $font1;
+        -ms-font-family: $font1;
+        -o-font-family: $font1;
+        src: url("../font/Merriweather-regular.ttf");
      }
      
      @font-face{
-         font-family: $font2;
-         src: url("../Montserrat-regular.ttf");
+        font-family: $font2;
+        -webkit-font-family: $font2;
+        -moz-font-family: $font2;
+        -ms-font-family: $font2;
+        -o-font-family: $font2;
+         src: url("../font/Montserrat-regular.ttf");
       }
 }
