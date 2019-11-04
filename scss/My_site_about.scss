@@ -1,7 +1,5 @@
 @import "variables";
 
-@include fontFace;
-
 html{
     height: 100%;
     margin: 0;
@@ -38,9 +36,16 @@ img{
     margin: 0 auto;
     text-align: center;
     width: 2rem;
+    font-size: 17px;
     
     @media only screen and (max-width: 350px){
-        width: 4rem;
+        width: 5rem;
+        font-size: 10px;
+    }
+
+    @media only screen and (max-width: 800px){
+        width: 40%;
+        font-size: 11px;
     }
 }
 

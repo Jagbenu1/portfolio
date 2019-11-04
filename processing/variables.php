@@ -1,6 +1,6 @@
 <?php 
-    $index = 'index.html.php';
-    $about = 'about.html.php';
-    $projects = 'projects.html.php';
-    $contact = 'contact.html.php';
+    $index = 'index.php';
+    $about = 'about.php';
+    $projects = 'projects.php';
+    $contact = 'contact.php';
 ?>

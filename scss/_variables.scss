@@ -1,28 +1,8 @@
-$font1: Merriweather;
-$font2: Monserrat;
+$font1: 'Bookman Old Style';
+$font2: 'Helvetica';
 $every_color: white;
 
 @mixin font {
     font-family: $font1;
     font-size: 19px;
-}
-
-@mixin fontFace {
-    @font-face{
-        font-family: $font1;
-        -webkit-font-family: $font1;
-        -moz-font-family: $font1;
-        -ms-font-family: $font1;
-        -o-font-family: $font1;
-        src: url("../font/Merriweather-regular.ttf");
-     }
-     
-     @font-face{
-        font-family: $font2;
-        -webkit-font-family: $font2;
-        -moz-font-family: $font2;
-        -ms-font-family: $font2;
-        -o-font-family: $font2;
-         src: url("../font/Montserrat-regular.ttf");
-      }
 }
