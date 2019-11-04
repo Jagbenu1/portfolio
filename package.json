@@ -1,0 +1,29 @@
+{
+  "name": "my_site",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jagbenu1/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Jacques Agbenu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jagbenu1/portfolio/issues"
+  },
+  "homepage": "https://github.com/Jagbenu1/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "sass": "^1.23.3",
+    "sass-cache": "0.0.3"
+  }
+}
