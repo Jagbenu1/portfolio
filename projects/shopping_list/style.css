@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("/fonts/Lato-Regular.eot");
+  src:url("fonts/Lato-regular"),url(),url();
+}
+
+body{
+  color: #555;
+  font-family: 'Bookman Old Style';
+  font-size: 16px;
+  position: relative;
+  height: 100vh;
+  font-weight: 400;
+}
+
+.top{
+  background-image: url('paradise.jpg');
+  background-size: auto;
+  height: 30vh;
+  position: relative;
+}
+
+.op__stuff{
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.shopping__list--title{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.list__title{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.add{
+padding: 10px;
+border-bottom: 1px solid #e7e7e7;
+background-color: #f7f7f7;
+}
+
+.add__container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add__input{
+  width: 400px;
+  border: 1px solid #e7e7e7;
+  background-color: #fff;
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: border 0.3s;
+}
+
+.add__btn{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #02C39A;  /*Caribbean Green*/
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    margin-left: 20px;
+}
+
+/* This makes it look like the button is getting pushed */
+.add__btn:active{
+  transform: translateY(2px);
+}
+
+.add__input:focus{
+  outline: none;
+  border: 1px solid #02C39A;
+}
+
+.add__btn:focus{
+  outline: none;
+}
+
+/********LISTS********/
+
+.container{
+  width: 50%;
+  margin: 60px auto;
+}
+
+.item {
+  padding: 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.item:first-child { border-top: 1px solid #e7e7e7; }
+.item:nth-child(even) { background-color: #f7f7f7; }
+
+.item__description{
+  float: left;
+  font-size: 30px;
+}
+
+.item__check{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-image: url('empty_checkbox.png');
+  background-size: cover;
+  float: left;
+  vertical-align: middle;
+}
+
+.complete{
+  background-image: url('checkmark.jpg');
+  background-size: cover;
+}
+
+.item__delete{
+  float: right;
+}
+
+.item__delete--btn {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #28B9B5;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 1;
+  display: none;
+}
+
+.item__delete--btn:focus{ outline: none; }
+.item__delete--btn:active{ transform: translateY(2px); }
+.item:hover .item__delete--btn{ display: block; }

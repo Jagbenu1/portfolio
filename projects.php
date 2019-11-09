@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
         <!-- <link rel="stylesheet" href="http://jacquesagbenu.com/css/My_site_home.css"> -->
         <link rel="stylesheet" href="/css/My_site_projects.css">
     </head>
@@ -12,11 +13,11 @@
 
     <div class="container-fluid">
             <div class="row">
-                <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg  col-12">
                     <div class="d-flex container-fluid">
-                    <div class="name-bar">
-                        <a href="<?php echo $index; ?>" id="tag"> Jacques Agbenu </a>
-                    </div>
+                        <div class="name-bar">
+                            <a href="<?php echo $index; ?>" id="tag"> Jacques Agbenu </a>
+                        </div>
                         <button class="navbar-toggler"
                             type="button"
                             data-toggle="collapse"
@@ -26,7 +27,6 @@
                             aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
                         </button>
-                            
                         <div class="collapse navbar-collapse" id="myTogglerNav">
                             <div class="navbar-nav ml-auto">
                                 <a class="nav-item nav-link content" href="<?php echo $index; ?>" >
@@ -44,14 +44,57 @@
             </div><!-- row -->
         </div><!-- container-fluid -->
 
+        <h1>Projects</h1>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-sm-9  col-md-8 col-lg-8">
+                    <div class="card-columns">
+                        <div class="card">
+                            <img class="card-img-top" src="/images/shopping-list.png" alt="HTML5">
+                            <div class="card-body">
+                                <p class="card-text">Shopping-list</p>
+                                <div class="btn">
+                                    <a href="./projects/shopping_list/shopping_list.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                </div>
+                                <div class="btn">
+                                    <a href="https://github.com/Jagbenu1/Shopping-List" target="_blank"><i class="fab fa-github"></i></a> 
+                                </div>
+                            </div><!-- card-body -->
+                        </div><!-- card -->
+                        <div class="card">
+                            <img class="card-img-top" src="/images/pig-game.png" alt="HTML5">
+                            <div class="card-body">
+                                <p class="card-text">Pig-Game</p>
+                                <div class="btn">
+                                    <a href="/projects/pig-game/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                </div>
+                                <div class="btn">
+                                    <a href="https://github.com/Jagbenu1/Pig-Game" target="_blank"><i class="fab fa-github"></i></a> 
+                                </div>
+                            </div><!-- card-body -->
+                        </div><!-- card -->
+                        <div class="card">
+                            <img class="card-img-top" src="/images/budgety.png" alt="HTML5">
+                            <div class="card-body">
+                                <p class="card-text">Budgety</p>
+                                <div class="btn">
+                                    <a href="./projects/budgety/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                </div>
+                                <div class="btn">
+                                    <a href="https://github.com/Jagbenu1/Budgety" target="_blank"><i class="fab fa-github"></i></a> 
+                                </div>
+                            </div><!-- card-body -->
+                        </div><!-- card -->                        
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    
 
-
-
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+        <script src="https://kit.fontawesome.com/41d00c9ca2.js" crossorigin="anonymous"></script>
     </body>
 </html>
