@@ -1,2 +1,5 @@
 #ignore all the css.map files
 *.css.map
+
+#untrack these files
+node_modules/
