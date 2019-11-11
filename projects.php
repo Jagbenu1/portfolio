@@ -49,7 +49,7 @@
             <div class="row justify-content-center">  
                         <div class="col-sm-4">
                              <div class="card">
-                                        <img class="card-img-top" src="/images/shopping-list.png" alt="HTML5">
+                                        <img class="card-img-top" src="/images/shopping-list.png" alt="Shopping_list">
                                         <div class="card-body">
                                             <p class="card-text">Shopping-list</p>
                                             <div class="btn btn-lg">
@@ -63,7 +63,7 @@
                         </div>    
                         <div class="col-sm-4">    
                             <div class="card">
-                                <img class="card-img-top" src="/images/pig-game.png" alt="HTML5">
+                                <img class="card-img-top" src="/images/pig-game.png" alt="Pig_Game">
                                 <div class="card-body">
                                     <p class="card-text">Pig-Game</p>
                                     <div class="btn btn-lg">
@@ -77,7 +77,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="card">
-                                <img class="card-img-top" src="/images/budgety.png" alt="HTML5">
+                                <img class="card-img-top" src="/images/budgety.png" alt="Budgety">
                                 <div class="card-body">
                                     <p class="card-text">Budgety</p>
                                     <div class="btn btn-lg">
@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-sm-4">    
                             <div class="card">
-                                <img class="card-img-top" src="/images/forkify.png" alt="HTML5">
+                                <img class="card-img-top" src="/images/forkify.png" alt="Forkify">
                                 <div class="card-body">
                                     <p class="card-text">Forkify</p>
                                     <div class="btn btn-lg">
