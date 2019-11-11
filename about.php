@@ -59,7 +59,7 @@
     </div>
 
     <h3>Skills</h3>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row justify-content-center"> 
                 <div class="col-sm-3">
                     <div class="card">
@@ -142,7 +142,7 @@
                     </div>
                 </div>  
         </div><!-- row -->          
-    </div><!-- container-fluid -->     
+    </div><!-- container -->     
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
