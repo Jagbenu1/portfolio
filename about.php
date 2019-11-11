@@ -61,82 +61,88 @@
     <h3>Skills</h3>
     <div class="container-fluid">
         <div class="row justify-content-center"> 
-            <div class=" col-xs-6 col-sm-6">
-                <div class="card-columns" >
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/html5.png" alt="HTML5">
                         <div class="card-body">
                             <p class="card-text">HTML5</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/css.png" alt="CSS3">
                         <div class="card-body">
                             <p class="card-text">CSS3</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/php.png" alt="PHP8">
                         <div class="card-body">
                             <p class="card-text">PHP8</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/javascript.png" alt="Javascript">
                         <div class="card-body">
                             <p class="card-text">Javascript</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/bootstrap.jpg" alt="bootstrap">
                         <div class="card-body">
                             <p class="card-text">Bootstrap4</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/babel.png" alt="Babel">
                         <div class="card-body">
                             <p class="card-text">Babel</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/webpack.png" alt="Webpack">
                         <div class="card-body">
                             <p class="card-text">Webpack</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/mySQL.png" alt="MySQL">
                         <div class="card-body">
                             <p class="card-text">MySQL</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/Git.png" alt="GIT">
                         <div class="card-body">
                             <p class="card-text">Git</p>
                         </div><!-- card-body -->
                     </div><!-- card -->
-
+                </div>
+                <div class="col-sm-3">
                     <div class="card">
                         <img class="card-img-top" src="/images/sass.png" alt="SASS">
                         <div class="card-body">
                             <p class="card-text">SASS/SCSS</p>
                         </div><!-- card-body -->
                     </div>
-
-                </div><!-- card-columns -->
-            </div><!-- col-sm-6 -->     
+                </div>  
         </div><!-- row -->          
-    </div><!-- container -->     
+    </div><!-- container-fluid -->     
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
