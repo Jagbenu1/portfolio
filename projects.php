@@ -84,6 +84,18 @@
                                     <a href="https://github.com/Jagbenu1/Budgety" target="_blank"><i class="fab fa-github"></i></a> 
                                 </div>
                             </div><!-- card-body -->
+                        </div><!-- card -->
+                        <div class="card">
+                            <img class="card-img-top" src="/images/forkify.png" alt="HTML5">
+                            <div class="card-body">
+                                <p class="card-text">Forkify</p>
+                                <div class="btn">
+                                    <a href="https://adoring-ardinghelli-6603f4.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                </div>
+                                <div class="btn">
+                                    <a href="https://github.com/Jagbenu1/forkify" target="_blank"><i class="fab fa-github"></i></a> 
+                                </div>
+                            </div><!-- card-body -->
                         </div><!-- card -->                        
                     </div>
                 </div>

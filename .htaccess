@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 Options +FollowSymLinks
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^jacquesagbenu.com$
+RewriteRule ^$ http://jacquesagbenu.com/home.php [L,R=301]
 </IfModule>
