@@ -52,7 +52,7 @@
                     </h1> 
                     <hr>
                     <p class="text-center">
-                                I am a CS student who wants to mainly focus in web development. Though I have no professional experience, I have learned many languages and libraries to follow this path. I am always willing to learn to become the best developer that I can be.
+                        I am a CS student who wants to mainly focus in web development. Though I have no professional experience, I have learned many languages and libraries to follow this path. I am always willing to learn to become the best developer that I can be.
                     </p>
             </div>
         </div>
@@ -61,7 +61,7 @@
     <h3>Skills</h3>
     <div class="container-fluid">
         <div class="row justify-content-center"> 
-            <div class="col-sm-6">
+            <div class=" col-xs-6 col-sm-6">
                 <div class="card-columns" >
                     <div class="card">
                         <img class="card-img-top" src="/images/html5.png" alt="HTML5">
@@ -131,7 +131,7 @@
                         <div class="card-body">
                             <p class="card-text">SASS/SCSS</p>
                         </div><!-- card-body -->
-                    </div><!-- card -->
+                    </div>
 
                 </div><!-- card-columns -->
             </div><!-- col-sm-6 -->     

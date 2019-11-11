@@ -46,59 +46,63 @@
 
         <h1>Projects</h1>
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-sm-9  col-md-8 col-lg-8">
-                    <div class="card-columns">
-                        <div class="card">
-                            <img class="card-img-top" src="/images/shopping-list.png" alt="HTML5">
-                            <div class="card-body">
-                                <p class="card-text">Shopping-list</p>
-                                <div class="btn">
-                                    <a href="./projects/shopping_list/shopping_list.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
-                                </div>
-                                <div class="btn">
-                                    <a href="https://github.com/Jagbenu1/Shopping-List" target="_blank"><i class="fab fa-github"></i></a> 
-                                </div>
-                            </div><!-- card-body -->
-                        </div><!-- card -->
-                        <div class="card">
-                            <img class="card-img-top" src="/images/pig-game.png" alt="HTML5">
-                            <div class="card-body">
-                                <p class="card-text">Pig-Game</p>
-                                <div class="btn">
-                                    <a href="/projects/pig-game/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
-                                </div>
-                                <div class="btn">
-                                    <a href="https://github.com/Jagbenu1/Pig-Game" target="_blank"><i class="fab fa-github"></i></a> 
-                                </div>
-                            </div><!-- card-body -->
-                        </div><!-- card -->
-                        <div class="card">
-                            <img class="card-img-top" src="/images/budgety.png" alt="HTML5">
-                            <div class="card-body">
-                                <p class="card-text">Budgety</p>
-                                <div class="btn">
-                                    <a href="./projects/budgety/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
-                                </div>
-                                <div class="btn">
-                                    <a href="https://github.com/Jagbenu1/Budgety" target="_blank"><i class="fab fa-github"></i></a> 
-                                </div>
-                            </div><!-- card-body -->
-                        </div><!-- card -->
-                        <div class="card">
-                            <img class="card-img-top" src="/images/forkify.png" alt="HTML5">
-                            <div class="card-body">
-                                <p class="card-text">Forkify</p>
-                                <div class="btn">
-                                    <a href="https://adoring-ardinghelli-6603f4.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
-                                </div>
-                                <div class="btn">
-                                    <a href="https://github.com/Jagbenu1/forkify" target="_blank"><i class="fab fa-github"></i></a> 
-                                </div>
-                            </div><!-- card-body -->
-                        </div><!-- card -->                        
-                    </div>
-                </div>
+            <div class="row justify-content-center">  
+                        <div class="col-sm-3">
+                             <div class="card">
+                                        <img class="card-img-top" src="/images/shopping-list.png" alt="HTML5">
+                                        <div class="card-body">
+                                            <p class="card-text">Shopping-list</p>
+                                            <div class="btn">
+                                                <a href="./projects/shopping_list/shopping_list.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                            </div>
+                                            <div class="btn">
+                                                <a href="https://github.com/Jagbenu1/Shopping-List" target="_blank"><i class="fab fa-github"></i></a> 
+                                            </div>
+                                        </div><!-- card-body -->  
+                                </div><!-- card -->
+                        </div>    
+                        <div class="col-sm-3">    
+                            <div class="card">
+                                <img class="card-img-top" src="/images/pig-game.png" alt="HTML5">
+                                <div class="card-body">
+                                    <p class="card-text">Pig-Game</p>
+                                    <div class="btn">
+                                        <a href="/projects/pig-game/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://github.com/Jagbenu1/Pig-Game" target="_blank"><i class="fab fa-github"></i></a> 
+                                    </div>
+                                </div><!-- card-body -->
+                            </div><!-- card -->
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/budgety.png" alt="HTML5">
+                                <div class="card-body">
+                                    <p class="card-text">Budgety</p>
+                                    <div class="btn">
+                                        <a href="./projects/budgety/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://github.com/Jagbenu1/Budgety" target="_blank"><i class="fab fa-github"></i></a> 
+                                    </div>
+                                </div><!-- card-body -->
+                            </div><!-- card -->
+                        </div>
+                        <div class="col-sm-3">    
+                            <div class="card">
+                                <img class="card-img-top" src="/images/forkify.png" alt="HTML5">
+                                <div class="card-body">
+                                    <p class="card-text">Forkify</p>
+                                    <div class="btn">
+                                        <a href="https://adoring-ardinghelli-6603f4.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a> 
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://github.com/Jagbenu1/forkify" target="_blank"><i class="fab fa-github"></i></a> 
+                                    </div>
+                                </div><!-- card-body -->
+                            </div><!-- card -->                       
+                        </div>
             </div>
         </div>
 
