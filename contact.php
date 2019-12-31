@@ -59,7 +59,7 @@
         <form class="contact-form" action="/processing/contact.php" method="post" id="myform">
               <div class="container d-sm-block">
                   <div class="row">
-                      <div class="col-sm-12 my-auto">
+                      <div class="col-md-12 my-auto">
                     <div class="form-group box" style="text-align: center;">
                       <input class="form-control" type="text" name="name" placeholder="Full name"/><br />
                         <?php if(isset($_GET["mailsend"])){

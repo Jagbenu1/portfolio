@@ -101,7 +101,7 @@
                         <img class="card-img-top" src="/images/forkify.png" alt="Forkify">
                         <div class="card-body">
                             <p class="card-text">Forkify</p>
-                                    <a href="https://adoring-ardinghelli-6603f4.netlify.com/" target="_blank" class="btn btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="left" title="View Online"
+                                    <a href="https://forkify.jacquesagbenu.com" target="_blank" class="btn btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="left" title="View Online"
                                             animation="true"><i class="fas fa-external-link-alt"></i>
                                     </a> 
                                 
@@ -110,6 +110,24 @@
                                     </a>    
                         </div><!-- card-body -->
                     </div><!-- card -->                       
+                </div> 
+
+
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/images/storm-gazer.png" alt="Storm-Gazer">
+                        <div class="card-body">
+                            <p class="card-text">Storm-Gazer</p>
+                                    <a href="https://storm-gazer.jacquesagbenu.com/" target="_blank" class="btn btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="left" title="View Online"
+                                            animation="true"><i class="fas fa-external-link-alt"></i>
+                                    </a> 
+            
+                                    <a href="https://github.com/Jagbenu1/Storm-Gazer" target="_blank" class="btn btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="left" title="View Source"
+                                            animation="true"><i class="fab fa-github"></i>
+                                            
+                                    </a> 
+                        </div><!-- card-body -->  
+                    </div><!-- card -->
                 </div>  
             </div>
         </div>
